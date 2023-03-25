@@ -1,0 +1,36 @@
+{
+  "name": "langchain-application",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/InfinityLabsCode/langchain-application.git",
+  "author": "Muhammad Akrabul Islam <120241968+InfinityLabsCode@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "formidable": "^2.1.1",
+    "langchain": "^0.0.22",
+    "mongoose": "^6.3.8",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^3.2.1",
+    "req-flash": "^0.0.3",
+    "serpapi": "^1.1.1",
+    "uniqid": "^5.4.0"
+  },
+  "scripts": {
+    "start:local": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.21",
+    "prettier": "^2.8.4"
+  }
+}
